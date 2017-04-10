@@ -1,6 +1,6 @@
 'use strict';
 
-Console.log('shark in the dark!');
+console.log('shark in the dark!');
 
 //object example
 var exampleObjectThing = {
@@ -23,25 +23,24 @@ var lolwut = {
   item:['things', 'stuff', 'whatlol'],
   author:'slugnibble',
 };
-
 var thingArchives = [
-  exampleOjectThings,
+  exampleObjectThing,
   stuff,
   lolwut,
 ];
 
 //Changing the title
 var heading = document.getElementById('title');
-heading.textContent = exampleOjectThing.title;
+heading.textContent = exampleObjectThing.title;
 heading.setAttribute('class', 'cool box button');
 
-var listListUl = document.getElementById('list')
+var listListUl = document.getElementById('list');
 //Create a li tag for each string in the object
 //Fill that li with the string of the object
 //Put he new li at the end of listListUl (using appendChild)
 
-thingLi;
-for (var i = 0; i <exampleObjectThing); i++){
+var thingLi;
+for (var i = 0; i < exampleObjectThing ;i++){
   console.log('exampleObjectThing.item of i',exampleObjectThing.item[1]);
   thingLi= document.createElement('li');
 
